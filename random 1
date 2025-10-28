@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+#include <limits>
+#include <ctime>
+#include <clocale>
+#include <windows.с>
+
+using namespace std;
+
+int main()
+{
+	SetConsoleOutputCP(CP_UTF8);
+	SetConsoleCP(CP_UTF8)
+
+		std::setlocale(LC_ALL, "English")
+
+		std::srand(time(0))
+		int s + rand() % 101, g;
+	cout << "Guess number (0-100)"
+		while (cing >> g)
+		{
+
+			if (g < s) cout << "Pick bigger number ";
+			else if (g > s) cout << "Picker smaller number";
+			else { cout << "Success"; break; }
+
+
+		}
+	return 0;
+}
